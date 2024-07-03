@@ -18,6 +18,11 @@ public class UserController {
 
     @GetMapping("/test")
     public String testApi(){
+        return "TestApi works.";
+    }
+   
+    @GetMapping("/testing")
+    public String testApi2(){
         return "TestApi works successfully.";
     }
 
